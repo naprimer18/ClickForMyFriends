@@ -7,7 +7,7 @@ export default class CreateGame extends Component {
   constructor (props) {
   		super(props);
       this.state={ball:0};
-      this.state = {value:10};
+      this.state = {value:7};
       this.increment=this.increment.bind(this)
 
   	}
@@ -29,13 +29,13 @@ export default class CreateGame extends Component {
      }
 
      display() {
-         let carent = <h1 className="name1"> Возьми 10 литрасиков пива и Саша будет рад , Осталось: {this.state.value} секунд </h1>
+         let carent = <h1 className="name1"> Возьми 7 литрасиков пива и Саша будет рад , Осталось: {this.state.value} секунд </h1>
          return carent;
      }
 
      winner() {
        let win;
-       if(this.state.ball >= 10) {
+       if(this.state.ball >= 7) {
          win = <h1 className="name2"> Ну че Погнали нахуй !!!  </h1>
          return win;
        }

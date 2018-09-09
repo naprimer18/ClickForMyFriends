@@ -6,7 +6,6 @@ background-size:cover;
 
 color :maroon;
 
-  font-family : 'Comic Sans MS, Lucida Handwriting, cursive';
   font-size : 1em;
   padding :0px 0;
 }
@@ -14,8 +13,7 @@ color :maroon;
 @media screen and (max-width: 640px) { *{ font-size: 50%;} }
 @media screen and (max-width: 1024px) { *{font-size: 80%;} }
 .name1 {
-  font-size : 2em;
-  font-family : Snell Roundhand, cursive;
+  font-size : 3em;
   color: hsl(80, 70%, 55%);
 }
 

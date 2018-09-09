@@ -1,0 +1,40 @@
+* {
+background-image:url(https://pp.userapi.com/c824504/v824504945/f80f8/tZjrguinJ8w.jpg);
+background-attachment:fixed;
+background-position:center;
+background-size:cover; 
+
+color :maroon;
+
+  font-family : 'Comic Sans MS, Lucida Handwriting, cursive';
+  font-size : 1em;
+  padding :0px 0;
+}
+
+@media screen and (max-width: 640px) { *{ font-size: 50%;} }
+@media screen and (max-width: 1024px) { *{font-size: 80%;} }
+.name1 {
+  font-size : 2em;
+  font-family : Snell Roundhand, cursive;
+  color: hsl(80, 70%, 55%);
+}
+
+.name2 {
+   font-size :5em;
+
+   color :red;
+   padding-left:200px;
+}
+
+.name3 {
+    font-size : 3em;
+    font-family : Snell Roundhand, cursive;
+    color: red;
+}
+
+.imgButton {
+  width:35px;
+  height:40px;
+  background: url(1hei.jpg) no-repeat;
+  border-radius:5px; 
+}
